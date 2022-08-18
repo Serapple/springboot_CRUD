@@ -20,8 +20,8 @@
 
 1. Usecase
     
-    ![usecase]([https://github.com/Serapple/Serapple.github.io/blob/main/docs/TIL/pic/2022-08-15/Usecase.png?raw=true](https://github.com/Serapple/Serapple.github.io/blob/main/docs/TIL/pic/2022-08-15/Usecase.png?raw=true))
-    
+    ![Usecase](https://user-images.githubusercontent.com/110282569/185336068-404dc552-639b-4ce8-89be-f52bd13e1d81.png)
+
 2. 전체 게시글 목록 조회 API
 3. 게시글 작성 API
 4. 게시글 조회 API
