@@ -34,8 +34,7 @@
 | 기능 | Method | URL | Request | Return |
 | --- | --- | --- | --- | --- |
 | 게시글 작성 | POST | /api/books | {”title” : “title”, “content”: content”, “author”: “author”, “password” : “password”} | {”createdAt” :”만든시간”, “modifiedAt”:”수정된 시간”, “id”:”id”, ”title” : “title”, “content”: content”, “author”: “author”} |
-| 게시글 전체 조회 | GET | /api/books |  | {”createdAt” :”만든시간”, “modifiedAt”:”수정된 시간”, “id”:”id”, ”title” : “title”, “content”: content”, “author”: “author”}
-{”createdAt” :”만든시간”, “modifiedAt”:”수정된 시간”, “id”:”id”, ”title” : “title”, “content”: content”, “author”: “author”} … |
+| 게시글 전체 조회 | GET | /api/books |  | {”createdAt” :”만든시간”, “modifiedAt”:”수정된 시간”, “id”:”id”, ”title” : “title”, “content”: content”, “author”: “author”},{”createdAt” :”만든시간”, “modifiedAt”:”수정된 시간”, “id”:”id”, ”title” : “title”, “content”: content”, “author”: “author”} … |
 | 게시글 조회 | GET | /api/books/{id} |  | {”createdAt” :”만든시간”, “modifiedAt”:”수정된 시간”, “id”:”id”, ”title” : “title”, “content”: content”, “author”: “author”} |
 | 게시글 비밀번호 확인 | POST | /api/books/{id} | {”password”:”password”} | true / false |
 | 게시글 수정 | PUT | /api/books/{id} | {”title” : “title2”, “content”: content2”, “author”: “author2”, “password” : “password2”} | {”createdAt” :”만든시간”, “modifiedAt”:”수정된 시간”, “id”:”id”, ”title” : “title2”, “content”: content2”, “author”: “author2”} |
